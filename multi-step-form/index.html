@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="/js/main.js"></script>
+  </head>
+  <body>
+    <main class="container my-5">
+      <div class="row">
+        <!-- Markup for sidebar widgets -->
+        <div class="col-lg-4">
+          <div class="cus-aside-cont py-4">
+            <div class="text-center mb-3 mx-5">
+              <img src="/images/logo-main.png" alt="LOGO" />
+
+              <div class="cus-bottom-dashed"></div>
+            </div>
+
+            <!-- Markup for timeline -->
+            <div class="timeline">
+              <!-- 1st timeline item -->
+              <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                  <h4 class="cus-text-md">Data recovery file no.</h4>
+
+                  <div class="my-3">
+                    <span class="model-no">No. MPQ4MG</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2nd timeline item -->
+
+              <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                  <h4 class="cus-text-md">Your Information</h4>
+
+                  <!-- one -->
+                  <div class="d-flex gap-2 items-center align-items-center">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        color="#ff8a00"
+                        fill="none"
+                      >
+                        <path
+                          d="M6.57757 15.4816C5.1628 16.324 1.45336 18.0441 3.71266 20.1966C4.81631 21.248 6.04549 22 7.59087 22H16.4091C17.9545 22 19.1837 21.248 20.2873 20.1966C22.5466 18.0441 18.8372 16.324 17.4224 15.4816C14.1048 13.5061 9.89519 13.5061 6.57757 15.4816Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M16.5 6.5C16.5 8.98528 14.4853 11 12 11C9.51472 11 7.5 8.98528 7.5 6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        />
+                      </svg>
+                    </p>
+
+                    <p class="cus-text-sm">Alexandre Bongrand</p>
+                  </div>
+
+                  <!-- two -->
+
+                  <div class="d-flex gap-2 items-center align-items-center">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        color="#ff8a00"
+                        fill="none"
+                      >
+                        <path
+                          d="M2 6L8.91302 9.91697C11.4616 11.361 12.5384 11.361 15.087 9.91697L22 6"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M2.01577 13.4756C2.08114 16.5412 2.11383 18.0739 3.24496 19.2094C4.37608 20.3448 5.95033 20.3843 9.09883 20.4634C11.0393 20.5122 12.9607 20.5122 14.9012 20.4634C18.0497 20.3843 19.6239 20.3448 20.7551 19.2094C21.8862 18.0739 21.9189 16.5412 21.9842 13.4756C22.0053 12.4899 22.0053 11.5101 21.9842 10.5244C21.9189 7.45886 21.8862 5.92609 20.7551 4.79066C19.6239 3.65523 18.0497 3.61568 14.9012 3.53657C12.9607 3.48781 11.0393 3.48781 9.09882 3.53656C5.95033 3.61566 4.37608 3.65521 3.24495 4.79065C2.11382 5.92608 2.08114 7.45885 2.01576 10.5244C1.99474 11.5101 1.99475 12.4899 2.01577 13.4756Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </p>
+
+                    <p class="cus-text-sm">alexandrebongrand@gmail.com</p>
+                  </div>
+
+                  <!-- three -->
+
+                  <div class="d-flex gap-2 items-center align-items-center">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        color="#ff8a00"
+                        fill="none"
+                      >
+                        <path
+                          d="M3.77762 11.9424C2.8296 10.2893 2.37185 8.93948 2.09584 7.57121C1.68762 5.54758 2.62181 3.57081 4.16938 2.30947C4.82345 1.77638 5.57323 1.95852 5.96 2.6524L6.83318 4.21891C7.52529 5.46057 7.87134 6.08139 7.8027 6.73959C7.73407 7.39779 7.26737 7.93386 6.33397 9.00601L3.77762 11.9424ZM3.77762 11.9424C5.69651 15.2883 8.70784 18.3013 12.0576 20.2224M12.0576 20.2224C13.7107 21.1704 15.0605 21.6282 16.4288 21.9042C18.4524 22.3124 20.4292 21.3782 21.6905 19.8306C22.2236 19.1766 22.0415 18.4268 21.3476 18.04L19.7811 17.1668C18.5394 16.4747 17.9186 16.1287 17.2604 16.1973C16.6022 16.2659 16.0661 16.7326 14.994 17.666L12.0576 20.2224Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M14 6.83185C15.4232 7.43624 16.5638 8.57677 17.1682 10M14.654 2C18.1912 3.02076 20.9791 5.80852 22 9.34563"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </p>
+
+                    <p class="cus-text-sm">0680452933</p>
+                  </div>
+
+                  <!-- four -->
+
+                  <div class="d-flex gap-2 items-center align-items-center">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        color="#ff8a00"
+                        fill="none"
+                      >
+                        <path
+                          d="M13.6177 21.367C13.1841 21.773 12.6044 22 12.0011 22C11.3978 22 10.8182 21.773 10.3845 21.367C6.41302 17.626 1.09076 13.4469 3.68627 7.37966C5.08963 4.09916 8.45834 2 12.0011 2C15.5439 2 18.9126 4.09916 20.316 7.37966C22.9082 13.4393 17.599 17.6389 13.6177 21.367Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        />
+                        <path
+                          d="M15.5 11C15.5 12.933 13.933 14.5 12 14.5C10.067 14.5 8.5 12.933 8.5 11C8.5 9.067 10.067 7.5 12 7.5C13.933 7.5 15.5 9.067 15.5 11Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        />
+                      </svg>
+                    </p>
+
+                    <p class="cus-text-sm">
+                      16 rue des sourbans, 30540 Milhaud
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 3rd timeline item -->
+
+              <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                  <h4 class="cus-text-md">Your dedicated technician</h4>
+
+                  <!-- one -->
+                  <div class="d-flex gap-2 items-center align-items-center">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        color="#ff8a00"
+                        fill="none"
+                      >
+                        <path
+                          d="M6.57757 15.4816C5.1628 16.324 1.45336 18.0441 3.71266 20.1966C4.81631 21.248 6.04549 22 7.59087 22H16.4091C17.9545 22 19.1837 21.248 20.2873 20.1966C22.5466 18.0441 18.8372 16.324 17.4224 15.4816C14.1048 13.5061 9.89519 13.5061 6.57757 15.4816Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M16.5 6.5C16.5 8.98528 14.4853 11 12 11C9.51472 11 7.5 8.98528 7.5 6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        />
+                      </svg>
+                    </p>
+
+                    <p class="cus-text-sm">Alexandre Bongrand</p>
+                  </div>
+
+                  <!-- two -->
+
+                  <div class="d-flex gap-2 items-center align-items-center">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        color="#ff8a00"
+                        fill="none"
+                      >
+                        <path
+                          d="M2 6L8.91302 9.91697C11.4616 11.361 12.5384 11.361 15.087 9.91697L22 6"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M2.01577 13.4756C2.08114 16.5412 2.11383 18.0739 3.24496 19.2094C4.37608 20.3448 5.95033 20.3843 9.09883 20.4634C11.0393 20.5122 12.9607 20.5122 14.9012 20.4634C18.0497 20.3843 19.6239 20.3448 20.7551 19.2094C21.8862 18.0739 21.9189 16.5412 21.9842 13.4756C22.0053 12.4899 22.0053 11.5101 21.9842 10.5244C21.9189 7.45886 21.8862 5.92609 20.7551 4.79066C19.6239 3.65523 18.0497 3.61568 14.9012 3.53657C12.9607 3.48781 11.0393 3.48781 9.09882 3.53656C5.95033 3.61566 4.37608 3.65521 3.24495 4.79065C2.11382 5.92608 2.08114 7.45885 2.01576 10.5244C1.99474 11.5101 1.99475 12.4899 2.01577 13.4756Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </p>
+
+                    <p class="cus-text-sm">alexandrebongrand@gmail.com</p>
+                  </div>
+
+                  <!-- three -->
+
+                  <div class="d-flex gap-2 items-center align-items-center">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        color="#ff8a00"
+                        fill="none"
+                      >
+                        <path
+                          d="M3.77762 11.9424C2.8296 10.2893 2.37185 8.93948 2.09584 7.57121C1.68762 5.54758 2.62181 3.57081 4.16938 2.30947C4.82345 1.77638 5.57323 1.95852 5.96 2.6524L6.83318 4.21891C7.52529 5.46057 7.87134 6.08139 7.8027 6.73959C7.73407 7.39779 7.26737 7.93386 6.33397 9.00601L3.77762 11.9424ZM3.77762 11.9424C5.69651 15.2883 8.70784 18.3013 12.0576 20.2224M12.0576 20.2224C13.7107 21.1704 15.0605 21.6282 16.4288 21.9042C18.4524 22.3124 20.4292 21.3782 21.6905 19.8306C22.2236 19.1766 22.0415 18.4268 21.3476 18.04L19.7811 17.1668C18.5394 16.4747 17.9186 16.1287 17.2604 16.1973C16.6022 16.2659 16.0661 16.7326 14.994 17.666L12.0576 20.2224Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M14 6.83185C15.4232 7.43624 16.5638 8.57677 17.1682 10M14.654 2C18.1912 3.02076 20.9791 5.80852 22 9.34563"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </p>
+
+                    <p class="cus-text-sm">0680452933</p>
+                  </div>
+
+                  <!-- four -->
+
+                  <div class="d-flex gap-2 items-center align-items-center">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        color="#ff8a00"
+                        fill="none"
+                      >
+                        <path
+                          d="M13.6177 21.367C13.1841 21.773 12.6044 22 12.0011 22C11.3978 22 10.8182 21.773 10.3845 21.367C6.41302 17.626 1.09076 13.4469 3.68627 7.37966C5.08963 4.09916 8.45834 2 12.0011 2C15.5439 2 18.9126 4.09916 20.316 7.37966C22.9082 13.4393 17.599 17.6389 13.6177 21.367Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        />
+                        <path
+                          d="M15.5 11C15.5 12.933 13.933 14.5 12 14.5C10.067 14.5 8.5 12.933 8.5 11C8.5 9.067 10.067 7.5 12 7.5C13.933 7.5 15.5 9.067 15.5 11Z"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        />
+                      </svg>
+                    </p>
+
+                    <p class="cus-text-sm">
+                      16 rue des sourbans, 30540 Milhaud
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4th timeline item -->
+              <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                  <h4 class="cus-text-md">Our no-obligation package</h4>
+
+                  <div class="">
+                    <p>
+                      <strong>Processing times:</strong> 5 to 15 working days,
+                      after receipt of your media
+                    </p>
+                    <p><strong>Package price:</strong> €899 including tax</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Markup for multi setup from  -->
+
+        <div class="col-lg-8 my-4 position-relative px-md-5">
+          <!-- Markup for steps  -->
+          <div class="steps d-flex align-items-center gap-2 mb-4">
+            <!-- Step 1 -->
+            <div class="d-flex align-items-center gap-2 items-center">
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="#ff8a00"
+                  fill="none"
+                >
+                  <path
+                    d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 12.75C8 12.75 9.6 13.6625 10.4 15C10.4 15 12.8 9.75 16 8"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </p>
+
+              <p class="cus-text-md">Step-01</p>
+
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="#000"
+                  fill="none"
+                >
+                  <path
+                    d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </p>
+            </div>
+            <!-- Step 2 -->
+            <div class="d-flex align-items-center gap-2 items-center">
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="#8b8b8b"
+                  fill="none"
+                >
+                  <path
+                    d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 12.75C8 12.75 9.6 13.6625 10.4 15C10.4 15 12.8 9.75 16 8"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </p>
+
+              <p class="cus-text-md">Step-02</p>
+
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="#000"
+                  fill="none"
+                >
+                  <path
+                    d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </p>
+            </div>
+            <!-- Step 3 -->
+            <div class="d-flex align-items-center gap-2 items-center">
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="#8b8b8b"
+                  fill="none"
+                >
+                  <path
+                    d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 12.75C8 12.75 9.6 13.6625 10.4 15C10.4 15 12.8 9.75 16 8"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </p>
+
+              <p class="cus-text-md">Step-03</p>
+
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="#000"
+                  fill="none"
+                >
+                  <path
+                    d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </p>
+            </div>
+            <!-- Step 4 -->
+            <div class="d-flex align-items-center gap-2 items-center">
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="#8b8b8b"
+                  fill="none"
+                >
+                  <path
+                    d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 12.75C8 12.75 9.6 13.6625 10.4 15C10.4 15 12.8 9.75 16 8"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </p>
+
+              <p class="cus-text-md">Done</p>
+            </div>
+          </div>
+          <div class="cus-bottom-dashed"></div>
+
+          <!-- End steps-->
+
+          <!-- Markup for  multi step form -->
+
+          <form
+            id="demoForm"
+            method="POST"
+            action="#"
+            class="multi-steps-form py-4"
+          >
+            <!-- Markup for  step 1  -->
+            <div class="step-1">
+              <div class="my-4">
+                <h2 class="cus-text-xl">Confirm the existence of a password</h2>
+                <p class="cus-text-sm">
+                  Please enter the project details in the fields below.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="cus-text-lg mb-3">Do you have any password</h3>
+
+                <select
+                  class="form-select form-select-lg mb-3 cus-text-md"
+                  aria-label=".form-select-lg example"
+                  id="passwordOption"
+                  onchange="isHavePassword()"
+                >
+                  <option selected disabled>Open this select one</option>
+                  <option value="1">I have a password</option>
+                  <option value="2">I don't have a password</option>
+                </select>
+              </div>
+
+              <div class="have-password pt-2 d-none">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label
+                        for="exampleFormControlInput1"
+                        class="form-label cus-text-sm"
+                        >Name of encryption software or tool:</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="username"
+                        id="exampleFormControlInput1"
+                        placeholder="Enter you name"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label
+                        for="exampleInputPassword1"
+                        class="form-label cus-text-sm"
+                        >Password</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        name="password"
+                        id="exampleInputPassword1"
+                        placeholder="Enter you password"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Markup for  step 2 -->
+
+            <!-- <div class="step-2">
+              <div class="my-4">
+                <h2 class="cus-text-xl">Add your additional information</h2>
+                <p class="cus-text-sm">
+                  Please enter the project details in the fields below.
+                </p>
+              </div>
+
+              <div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Subject</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Enter a subject"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label
+                    for="exampleFormControlTextarea1"
+                    class="form-label cus-text-sm"
+                    >Description</label
+                  >
+                  <textarea
+                    class="form-control cus-text-sm"
+                    id="exampleFormControlTextarea1"
+                    rows="5"
+                    placeholder="Type here"
+                  ></textarea>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Markup for  step 3 -->
+
+            <!-- <div class="step-3">
+              <div class="my-4">
+                <h2 class="cus-text-xl">What type of media route you used?</h2>
+              </div>
+
+              <div class="mb-3 border rounded p-2">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckIndeterminate"
+                  />
+                  <label class="form-check-label" for="flexCheckIndeterminate">
+                    I package my media and drop it in my mailbox.
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3 border rounded p-2">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckIndeterminate"
+                  />
+                  <label class="form-check-label" for="flexCheckIndeterminate">
+                    I package my support and drop it off at a post office.
+                  </label>
+                </div>
+              </div>
+
+              <div
+                class="d-flex gap-4 align-items-center cus-bg-primary-300 rounded p-3"
+              >
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="48"
+                    height="48"
+                    color="#ff8a00"
+                    fill="none"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    />
+                    <path
+                      d="M11.992 15H12.001"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 12L12 8"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </p>
+
+                <p class="cus-text-xs">
+                  <strong>Important:</strong> Please ensure that each package
+                  sent has the shipping label or, in its absence, that the file
+                  number is clearly indicated on the box or inside to facilitate
+                  tracking of the package throughout the process .
+                </p>
+              </div>
+
+              <hr />
+
+              <div class="mb-3">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckIndeterminate"
+                  />
+                  <label
+                    class="form-check-label cus-text-sm"
+                    for="flexCheckIndeterminate"
+                  >
+                    By checking this box, I authorize Sauve-Souris and its
+                    partners to intervene on my support. I declare that I have
+                    read and accepted the terms and conditions of service . I
+                    accept that the information entered in this form will be
+                    used in accordance with the GDPR to manage the commercial
+                    relationship that may result from it.
+                  </label>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Markup for  step 4 -->
+
+            <!-- <div class="step-4">
+            <div class="my-4">
+                <div class="mb-2">
+                    <svg width="74" height="73" viewBox="0 0 74 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5.1875" y="5.25" width="62.5" height="62.5" rx="31.25" fill="#EC9F5A"/>
+                        <rect x="5.1875" y="5.25" width="62.5" height="62.5" rx="31.25" stroke="#F5CFAF" stroke-width="9.375"/>
+                        <path d="M32.5313 36.5L35.1355 39.1042L40.9949 33.2448M30.3618 25.8472C31.4084 25.7637 32.4021 25.3521 33.2012 24.6711C35.0661 23.0818 37.809 23.0818 39.674 24.6711C40.4731 25.3521 41.4667 25.7637 42.5134 25.8472C44.9559 26.0422 46.8954 27.9817 47.0903 30.4242C47.1738 31.4708 47.5854 32.4645 48.2665 33.2636C49.8557 35.1285 49.8557 37.8714 48.2665 39.7364C47.5854 40.5355 47.1738 41.5292 47.0903 42.5758C46.8954 45.0183 44.9559 46.9578 42.5134 47.1527C41.4667 47.2363 40.4731 47.6478 39.674 48.3289C37.809 49.9181 35.0661 49.9181 33.2012 48.3289C32.4021 47.6478 31.4084 47.2363 30.3618 47.1527C27.9193 46.9578 25.9798 45.0183 25.7848 42.5758C25.7013 41.5292 25.2897 40.5355 24.6087 39.7364C23.0194 37.8714 23.0194 35.1285 24.6087 33.2636C25.2897 32.4645 25.7013 31.4708 25.7848 30.4242C25.9798 27.9817 27.9193 26.0422 30.3618 25.8472Z" stroke="white" stroke-width="2.60417" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                </div>
+              <h2 class="cus-text-xl">Thank your ! Your submission <br> has been received.</h2>
+            </div>
+        </div> -->
+          </form>
+
+          <!--  Markup for previous &  next button -->
+
+          <div
+            class="d-flex justify-content-between previous-next-btn-cont px-md-5"
+          >
+            <button type="button" class="previous-btn btn">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="#ff8a00"
+                  fill="none"
+                >
+                  <path
+                    d="M4 12L20 12"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8.99996 17C8.99996 17 4.00001 13.3176 4 12C3.99999 10.6824 9 7 9 7"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+
+              Previous
+            </button>
+            <button type="button" class="next-btn btn">
+              Next
+
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="#ff8a00"
+                  fill="none"
+                >
+                  <path
+                    d="M20 12L4 12"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15 17C15 17 20 13.3176 20 12C20 10.6824 15 7 15 7"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function isHavePassword() {
+        let selectedOption = document.getElementById("passwordOption").value;
+        let havePassword = document.querySelector(".have-password");
+        if (selectedOption === "1") {
+          havePassword.classList.remove("d-none");
+        } else {
+          havePassword.classList.add("d-none");
+        }
+      }
+    </script>
+  </body>
+</html>
